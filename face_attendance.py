@@ -10,7 +10,7 @@ from mark_attendance import markAttendance
 # 1️⃣ Hikvision RTSP Configuration (Main Stream recommended)
 # ============================================================
 # Format: rtsp://username:password@IP:554/Streaming/Channels/101
-RTSP_URL = "rtsp://admin:root@100@192.168.11.7/Streaming/Channels/101"
+RTSP_URL = "rtsp://<username>:<password>@<camera_ip>:554/Streaming/Channels/101"
 
 # ============================================================
 # 2️⃣ Threaded Frame Grabber Class — For Real-Time Processing
